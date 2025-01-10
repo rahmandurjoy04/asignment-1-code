@@ -89,3 +89,72 @@
     padding: 17px 34px 17px 34px;
     margin: 24px 0px;
 }
+
+/* pillars of bangladesh section starts here */
+
+.pillar {
+    /* background-color: tomato; */
+    margin: auto;
+    /* background-color: tomato; */
+    width: 1480px;
+    height: 324px;
+    /* margin: 80px 0px; */
+    /* gap: 32; */
+
+}
+
+.pillar-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 1280px;
+    height: 48px;
+    margin: 32px 0px;
+    padding-left: 22px;
+}
+
+.pillar-cards {
+    display: flex;
+    margin: auto;
+    width: 1480px;
+}
+
+/* shared-css-for-cards */
+.pillar-card {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    margin: 0px 34px;
+}
+.pillar-card-heading{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+width: 254px;
+height: 24px;
+}
+.pillar-content{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+} 
+/* shared css ends */
+
+/* vision section starts here */
