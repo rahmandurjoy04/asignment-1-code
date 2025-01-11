@@ -134,27 +134,214 @@
     padding: 24px;
     margin: 0px 34px;
 }
-.pillar-card-heading{
+
+.pillar-card-heading {
     color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin: 12px 0px;
-width: 254px;
-height: 24px;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+    width: 254px;
+    height: 24px;
 }
-.pillar-content{
+
+.pillar-content {
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-letter-spacing: 0%;
-text-align: left;
-margin: 12px 0px;
-} 
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+
 /* shared css ends */
 
 /* vision section starts here */
+.vision-main-div {
+    margin: auto;
+    width: 1480px;
+    height: 765px;
+    margin-top: 80px;
+    /* gap: 32; */
+    padding: 0px;
+}
+
+.vision-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 1280px;
+    height: 48px;
+}
+
+.vision-content {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 1280px;
+    height: 48px;
+    margin: 12px 0px;
+}
+
+.vision-cards {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* margin: 10px; */
+}
+
+.card-1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.card-2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.card-3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgb(247, 235, 207);
+}
+
+.vbtn-1 {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    margin: 24px 0px;
+    padding: 11px 20px 11px 20px;
+    width: 122px;
+    height: 41px;
+}
+
+.vbtn-2 {
+    border-radius: 8px;
+
+    background: rgb(9, 161, 92);
+    margin: 44px 0px;
+    padding: 11px 20px 11px 20px;
+    width: 122px;
+    height: 41px;
+}
+
+.vbtn-3 {
+    border-radius: 8px;
+
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    margin: 22px 0px;
+    width: 122px;
+    height: 41px;
+}
+
+.yunus-quote {
+    background: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255), url("../assets/quote-bg.png");
+    margin: 0px 62px;
+    padding: 48px 24px 48px 24px;
+    width: 1360px;
+    height: 256px;
+    margin-top: 30px;
+}
+
+.yunus-content {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+    width: 1232px;
+    height: 100px;
+}
+
+.yunus-name {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 1232px;
+    height: 24px;
+    margin: 4px 0px;
+}
+.yunus-sub-heading{
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 1232px;
+height: 24px;
+margin: 4px 0px;
+}
+
+/* vision-cards-common style starts */
+.vision-card {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    gap: 24;
+    padding: 32px;
+}
+
+.vision-card-heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.vision-card-content {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.vision-card-button {
+
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    /* margin-bottom: 24px; */
+}
+
+/* vision-cards-common style ends */
