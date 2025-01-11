@@ -289,17 +289,18 @@
     height: 24px;
     margin: 4px 0px;
 }
-.yunus-sub-heading{
+
+.yunus-sub-heading {
     color: rgba(14, 14, 14, 0.6);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-width: 1232px;
-height: 24px;
-margin: 4px 0px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 1232px;
+    height: 24px;
+    margin: 4px 0px;
 }
 
 /* vision-cards-common style starts */
@@ -345,3 +346,101 @@ margin: 4px 0px;
 }
 
 /* vision-cards-common style ends */
+
+/* recent-div-styles start */
+.recent-div {
+    margin: auto;
+    width: 1232px;
+    height: 460px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin: 24px 0px;
+    padding: 48px;
+}
+
+.recent-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 2px 0px;
+    padding: 0px;
+}
+
+.recent-content {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 24px; */
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+
+.recent-poster {
+    display: flex;
+    border-radius: 24px;
+    width: 1480px;
+    height: 402px;
+
+
+    background: rgb(255, 255, 255);
+    margin: 24px 0px;
+    padding: 48px;
+}
+
+.recent-image-1 {
+    background-image: url("../assets/satelite.png");
+    border-radius: 24px;
+    margin: 0px 32px;
+    width: 408px;
+    height: 306px;
+}
+
+.side-heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+    width: 744px;
+    height: 38px;
+}
+
+.side-content {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+    width: 744px;
+    height: 72px;
+}
+
+.side-btn {
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+    width: 139px;
+    height: 48px;
+    padding: 13px 26px 13px 26px;
+    margin: 32px 0px;
+}
+.poster-2{
+    display: flex;
+}
+/* recent-div-style-end */
+
+/* DONATE SECTION STYLES START HERE */
+
+/* DONATE SECTION STYLES END HERE */
