@@ -348,13 +348,11 @@
 /* vision-cards-common style ends */
 
 /* recent-div-styles start */
-.recent-div {
+.recent-section {
     margin: auto;
     width: 1232px;
-    height: 460px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
-    /* margin: 24px 0px; */
     padding: 48px;
 }
 
@@ -386,8 +384,6 @@
     border-radius: 24px;
     width: 1480px;
     height: 402px;
-
-
     background: rgb(255, 255, 255);
     margin: 24px 0px;
     padding: 48px;
@@ -436,11 +432,181 @@
     padding: 13px 26px 13px 26px;
     margin: 32px 0px;
 }
-.poster-2{
-    display: flex;
-}
+
 /* recent-div-style-end */
 
 /* DONATE SECTION STYLES START HERE */
+.donate-section {
+    margin: auto;
+    width: 1280px;
+    height: 464px;
+}
+
+.donate-cards {
+    display: flex;
+    /* margin: 32px 0px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* gap: 24; */
+}
+
+.donate {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    width: 240px;
+    height: 128px;
+
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 28px;
+}
+
+.donate-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-sub-heading {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.donate-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-input {
+    width: 1032px;
+    height: 50px;
+    padding: 10px 30px 10px 30px;
+}
+
+.donate-form {
+    margin: 20px 0px;
+}
+
+.done-now {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+    width: 151px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.btn-200 {
+    background: rgb(198, 228, 214);
+}
+
+.amount-input {
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
 
 /* DONATE SECTION STYLES END HERE */
+
+/* newsletter-design-starts-here */
+
+.newsletter {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1280px;
+    height: 395px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    margin-top: 80px;
+}
+
+.heading>h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0px;
+    width: 622px;
+    height: 48px;
+}
+
+.content>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0px;
+    width: 622px;
+    height: 48px;
+}
+
+.email-sub {
+    border-radius: 8px 0px 0px 8px;
+
+    background: rgb(255, 255, 255);
+    width: 600px;
+    height: 55px;
+    padding: 18px 40px 18px 40px;
+}
+
+.newsletter .email-sub-button {
+    
+    background: rgb(0, 106, 80);
+    border-radius: 0px 8px 8px 0px;
+    width: 150px;
+    height: 94px;
+
+}
+.spam{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+}
+/* newsletter-design-ends-here */
